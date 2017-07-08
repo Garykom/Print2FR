@@ -1,0 +1,8 @@
+D:\Work\ATOL\Print2FR\Print2FR\obj\x86\Release\Interop.FprnM1C.dll
+D:\Work\ATOL\Print2FR\Print2FR\obj\x86\Release\Print2FR.csproj.ResolveComReference.cache
+D:\Work\ATOL\Print2FR\Print2FR\bin\x86\Release\Print2FR.exe
+D:\Work\ATOL\Print2FR\Print2FR\bin\x86\Release\Print2FR.pdb
+D:\Work\ATOL\Print2FR\Print2FR\bin\x86\Release\Interop.FprnM1C.dll
+D:\Work\ATOL\Print2FR\Print2FR\obj\x86\Release\Print2FR.csprojResolveAssemblyReference.cache
+D:\Work\ATOL\Print2FR\Print2FR\obj\x86\Release\Print2FR.exe
+D:\Work\ATOL\Print2FR\Print2FR\obj\x86\Release\Print2FR.pdb

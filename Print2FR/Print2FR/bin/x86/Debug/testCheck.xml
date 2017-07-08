@@ -1,0 +1,11 @@
+<CheckPackage>
+    <Parameters PaymentType="1" SenderEmail="info@1c.ru" CustomerEmail="alex2000@mail.ru" CustomerPhone="" AgentCompensation="" AgentPhone=""/>
+    <Positions>
+        <FiscalString Name="Макароны" Quantity="0.5" Price="16.75" Amount="16.75" Tax="none"/>
+        <FiscalString Name="Томатный сок" Quantity="1" Price="200" Amount="200" Tax="0"/>
+        <FiscalString Name="Алкоголь Шампрео 0.7" Quantity="1" Price="455" Amount="455" Tax="18"/>
+        <TextString Text="Дисконтная карта: 00002345"/>
+        <Barcode BarcodeType="EAN13" Barcode="2000021262157"/>
+    </Positions>
+    <Payments Cash="471.75" CashLessType1="0" CashLessType2="0" CashLessType3="200"/>
+</CheckPackage>

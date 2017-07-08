@@ -1,0 +1,32 @@
+D:\Work\ATOL\Print2FR\Print2FR\bin\x86\Debug\Print2FR.exe
+D:\Work\ATOL\Print2FR\Print2FR\bin\x86\Debug\Print2FR.pdb
+D:\Work\ATOL\Print2FR\Print2FR\obj\x86\Debug\Print2FR.exe
+D:\Work\ATOL\Print2FR\Print2FR\obj\x86\Debug\Print2FR.pdb
+D:\Work\ATOL\Print2FR\Print2FR\bin\x86\Debug\Interop.FprnM1C.dll
+D:\Work\ATOL\Print2FR\Print2FR\obj\x86\Debug\Interop.FprnM1C.dll
+D:\Work\ATOL\Print2FR\Print2FR\obj\x86\Debug\Print2FR.csproj.ResolveComReference.cache
+F:\Автоцентр Камаз\Out\Print2FR\Print2FR\obj\x86\Debug\Interop.FprnM1C.dll
+F:\Автоцентр Камаз\Out\Print2FR\Print2FR\obj\x86\Debug\Print2FR.csproj.ResolveComReference.cache
+F:\Автоцентр Камаз\Out\Print2FR\Print2FR\obj\x86\Debug\Print2FR.exe
+F:\Автоцентр Камаз\Out\Print2FR\Print2FR\obj\x86\Debug\Print2FR.pdb
+F:\Автоцентр Камаз\Out\Print2FR\Print2FR\bin\x86\Debug\Print2FR.exe
+F:\Автоцентр Камаз\Out\Print2FR\Print2FR\bin\x86\Debug\Print2FR.pdb
+F:\Автоцентр Камаз\Out\Print2FR\Print2FR\bin\x86\Debug\Interop.FprnM1C.dll
+F:\Автоцентр Камаз\Out\Print2FR\Print2FR\obj\x86\Debug\Print2FR.csprojResolveAssemblyReference.cache
+D:\Автоцентр Камаз\Out\Print2FR\Print2FR\obj\x86\Debug\Interop.FprnM1C.dll
+D:\Автоцентр Камаз\Out\Print2FR\Print2FR\obj\x86\Debug\Print2FR.csproj.ResolveComReference.cache
+D:\Автоцентр Камаз\Out\Print2FR\Print2FR\obj\x86\Debug\Print2FR.exe
+D:\Автоцентр Камаз\Out\Print2FR\Print2FR\obj\x86\Debug\Print2FR.pdb
+D:\Автоцентр Камаз\Out\Print2FR\Print2FR\bin\x86\Debug\Print2FR.exe
+D:\Автоцентр Камаз\Out\Print2FR\Print2FR\bin\x86\Debug\Print2FR.pdb
+D:\Автоцентр Камаз\Out\Print2FR\Print2FR\bin\x86\Debug\Interop.FprnM1C.dll
+D:\Автоцентр Камаз\Out\Print2FR\Print2FR\obj\x86\Debug\Print2FR.csprojResolveAssemblyReference.cache
+d:\Work\ATOL\Print2FR\Print2FR\obj\x86\Debug\Print2FR.csprojResolveAssemblyReference.cache
+h:\Автоцентр Камаз\Out\Print2FR\Print2FR\obj\x86\Debug\Interop.FprnM1C.dll
+h:\Автоцентр Камаз\Out\Print2FR\Print2FR\obj\x86\Debug\Print2FR.csproj.ResolveComReference.cache
+h:\Автоцентр Камаз\Out\Print2FR\Print2FR\obj\x86\Debug\Print2FR.exe
+h:\Автоцентр Камаз\Out\Print2FR\Print2FR\obj\x86\Debug\Print2FR.pdb
+h:\Автоцентр Камаз\Out\Print2FR\Print2FR\obj\x86\Debug\Print2FR.csprojResolveAssemblyReference.cache
+h:\Автоцентр Камаз\Out\Print2FR\Print2FR\bin\x86\Debug\Print2FR.exe
+h:\Автоцентр Камаз\Out\Print2FR\Print2FR\bin\x86\Debug\Print2FR.pdb
+h:\Автоцентр Камаз\Out\Print2FR\Print2FR\bin\x86\Debug\Interop.FprnM1C.dll
