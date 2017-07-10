@@ -4,8 +4,9 @@ Print to Fiscal Registrators
 Печать на фискальные регистраторы по 54-ФЗ.
 Пока только через драйвер АТОЛ 8.15 и выше.
 
-Для создания порта виртуального принтера используется "Multi File Port Monitor":
-Страница https://sourceforge.net/projects/mfilemon/
+Для создания порта виртуального принтера используется "Multi File Port Monitor".
+
+Страница проекта https://sourceforge.net/projects/mfilemon/
 Зеркало https://github.com/arlm/mfilemon
 
 Дистрибутив для установки:
