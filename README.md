@@ -6,7 +6,7 @@ Print to Fiscal Registrators
 
 Для создания порта виртуального принтера используется "Multi File Port Monitor":
  https://sourceforge.net/projects/mfilemon/?source=navbar
- https://github.com/arlm/mfilemon
+Зеркало https://github.com/arlm/mfilemon
 
 Дистрибутив для установки:
  https://github.com/arlm/mfilemon/raw/master/setup/Output/mfilemon-setup.exe
