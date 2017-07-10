@@ -113,14 +113,6 @@ namespace Print2FR
             Log("Name=" + Name);
 
             double Price = fs.Price;
-            //string fsPrice = fs.Price.Replace('.', ',');
-            //if (!Double.TryParse(fsPrice, out Price))
-            //{
-            //    Console.WriteLine("Error parse Price: " + fs.Price);
-            //    FR.Abort();
-            //    return;
-            //};
-            //Console.WriteLine("Price=" + Price.ToString());
             double Quantity = fs.Quantity;
             double Amount = fs.Amount;
 
