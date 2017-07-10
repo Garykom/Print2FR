@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
-using System.ComponentModel;
 using System.Xml.Serialization;
 
 namespace Print2FR
@@ -14,7 +13,7 @@ namespace Print2FR
             Console.WriteLine(msg);
 
             string path = "" + AppDomain.CurrentDomain.BaseDirectory + "log.txt";
-            System.IO.StreamWriter sw = System.IO.File.AppendText(path);
+            StreamWriter sw = File.AppendText(path);
             try
             {
                 string logLine = System.String.Format("{0:G}: {1}.", System.DateTime.Now, msg);
@@ -28,13 +27,12 @@ namespace Print2FR
 
         public static Stream GenerateStreamFromString(string s)
         {
-            return new MemoryStream(Encoding.UTF8.GetBytes(s));
+            return new MemoryStream(Encoding.GetEncoding(1251).GetBytes(s));
         }
 
         public static T DeserializeXMLFileToObject<T>(Stream xmlstream)
         {
             T returnObject = default(T);
-            //if (string.IsNullOrEmpty(XmlFilename)) return default(T);
             try
             {
                 StreamReader xmlStream = new StreamReader(xmlstream);
@@ -44,7 +42,6 @@ namespace Print2FR
             catch (Exception ex)
             {
                 Log(ex.ToString());
-                //ExceptionLogger.WriteExceptionToConsole(ex, DateTime.Now);
             }
             return returnObject;
         }
@@ -164,7 +161,7 @@ namespace Print2FR
             }
 
             Log("ProcessCheck");
-            Log("Positions = "+ checkPackage.Positions.Items.Length);
+            Log("Positions = " + checkPackage.Positions.Items.Length);
 
             FR.Start();
 
@@ -282,11 +279,6 @@ namespace Print2FR
             }
         }
 
-        static string Encode(string str)
-        {
-            return Encode(str, 866, 1251);
-        }
-
         static string Encode(string str, string codePageIn, string codePageOut)
         {
             var bytes = Encoding.GetEncoding(codePageIn).GetBytes(str);
@@ -315,15 +307,34 @@ namespace Print2FR
         {
             List<String> Lines = new List<String>();
 
-            string line;
-            do
+            if (args.Length == 0)
             {
-                line = Console.ReadLine();
-                if (line != null)
+                string line;
+                do
                 {
-                    Lines.Add(Encode(line));
+                    line = Console.ReadLine();
+                    if (line != null)
+                    {
+                        line = Encode(line, 866, 1251);
+                        Log(line);
+                        Lines.Add(Encode(line, 65001, 1251));
+                    }
+                } while (line != null);
+            }
+            else
+            {
+                string filename = args[0];
+                try
+                {
+                    string line = File.ReadAllText(filename, Encoding.GetEncoding(1251));
+                    Lines.Add(Encode(line, 65001, 1251));
                 }
-            } while (line != null);
+                catch (Exception e)
+                {
+                    Log("The file could not be read: " + filename);
+                    Log(e.Message);
+                }
+            }
 
             FR.Init();
 
