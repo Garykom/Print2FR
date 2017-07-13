@@ -11,4 +11,4 @@ https://sourceforge.net/projects/mfilemon/
 Дистрибутив для установки:
  https://github.com/arlm/mfilemon/raw/master/setup/Output/mfilemon-setup.exe
 
-
+Для штатной работы используется встроенный в Windows (практически любой версии) драйвер принтера "Generic / Text Only Printer".
